@@ -1,0 +1,44 @@
+.wrapper {
+  position: relative;
+  padding: 0 40px;
+}
+
+.track {
+  display: flex;
+  gap: 40px;
+  overflow: hidden;
+}
+
+.slide {
+  flex-shrink: 0;
+}
+
+.navButton {
+  position: absolute;
+  top: 85px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: none;
+  padding: 0;
+  background-color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.navButton svg {
+  width: 32px;
+  height: 32px;
+  display: block;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}

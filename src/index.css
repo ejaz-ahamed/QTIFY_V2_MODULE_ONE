@@ -1,0 +1,38 @@
+:root {
+  --color-primary: #34c94b;
+  --color-black: #121212;
+  --color-white: #ffffff;
+  --color-grey: #1e1e1e;
+  --font-family: "Poppins", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--color-black);
+  color: var(--color-white);
+  overflow-x: hidden;
+}
+
+button,
+input {
+  font-family: var(--font-family);
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
